@@ -14,5 +14,11 @@
 #include <stack>
 #include <map>
 #include <queue>
+#include <math.h>
 
 using namespace std;
+
+void pp()
+{
+    printf("welcome\n");
+}
