@@ -49,7 +49,7 @@ int main()
             a[y][x] = cost;
         }
         dist[1] = 0;
-        visit[1] = 1;
+        //visit[1] = 1;
         int nowp = 1;
         for(int i = 0; i<n-1;i++)                           //还剩n-1个节点没有加入visit集合
         {
@@ -62,6 +62,7 @@ int main()
                 }
             }
             int min = 123123123;
+            visit[nowp] = 1;
             for(int j = 2;j <=n;j++)
             {
                 if(dist[j] < min && visit[j] == 0)
@@ -70,7 +71,7 @@ int main()
                     nowp = j;
                 }
             }
-            visit[nowp] = 1;
+            //visit[nowp] = 1;
         }
         printf("%d\n",dist[n]);
     }
