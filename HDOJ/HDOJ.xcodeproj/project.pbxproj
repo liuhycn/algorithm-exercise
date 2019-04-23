@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6DCE656C226EFF7F0061EA51 /* DFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE656B226EFF7F0061EA51 /* DFS.cpp */; };
+		6D1F361B226F65B7008C76FB /* 1096.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D1F361A226F65B7008C76FB /* 1096.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6DC1F2A8226B8BFC00807F19 /* CopyFiles */ = {
+		6D1F35FB226F4E10008C76FB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6DC1F2AA226B8BFC00807F19 /* algorithm-exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algorithm-exercise"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DC1F2C7226C3F6D00807F19 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		6DCE656B226EFF7F0061EA51 /* DFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DFS.cpp; sourceTree = "<group>"; };
+		6D1F35FD226F4E10008C76FB /* HDOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = HDOJ; path = "/Users/hyliu/Documents/Study/Study-notes/algorithm-exercise/HDOJ/build/Debug/HDOJ"; sourceTree = "<absolute>"; };
+		6D1F3609226F4FA7008C76FB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		6D1F361A226F65B7008C76FB /* 1096.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1096.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DC1F2A7226B8BFC00807F19 /* Frameworks */ = {
+		6D1F35FA226F4E10008C76FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,95 +39,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6DC1F2A1226B8BFC00807F19 = {
+		6D1F35F4226F4E0F008C76FB = {
 			isa = PBXGroup;
 			children = (
-				6DC1F2AC226B8BFC00807F19 /* algorithm-exercise */,
-				6DC1F2AB226B8BFC00807F19 /* Products */,
+				6D1F35FF226F4E10008C76FB /* HDOJ */,
 			);
 			sourceTree = "<group>";
 		};
-		6DC1F2AB226B8BFC00807F19 /* Products */ = {
+		6D1F35FF226F4E10008C76FB /* HDOJ */ = {
 			isa = PBXGroup;
 			children = (
-				6DC1F2AA226B8BFC00807F19 /* algorithm-exercise */,
+				6D1F3609226F4FA7008C76FB /* Header.h */,
+				6D1F361A226F65B7008C76FB /* 1096.cpp */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6DC1F2AC226B8BFC00807F19 /* algorithm-exercise */ = {
-			isa = PBXGroup;
-			children = (
-				6DC1F2C7226C3F6D00807F19 /* Header.h */,
-				6DCE656B226EFF7F0061EA51 /* DFS.cpp */,
-			);
-			path = "algorithm-exercise";
+			path = HDOJ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DC1F2A9226B8BFC00807F19 /* algorithm-exercise */ = {
+		6D1F35FC226F4E10008C76FB /* HDOJ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DC1F2B1226B8BFC00807F19 /* Build configuration list for PBXNativeTarget "algorithm-exercise" */;
+			buildConfigurationList = 6D1F3604226F4E10008C76FB /* Build configuration list for PBXNativeTarget "HDOJ" */;
 			buildPhases = (
-				6DC1F2A6226B8BFC00807F19 /* Sources */,
-				6DC1F2A7226B8BFC00807F19 /* Frameworks */,
-				6DC1F2A8226B8BFC00807F19 /* CopyFiles */,
+				6D1F35F9226F4E10008C76FB /* Sources */,
+				6D1F35FA226F4E10008C76FB /* Frameworks */,
+				6D1F35FB226F4E10008C76FB /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "algorithm-exercise";
-			productName = "algorithm-exercise";
-			productReference = 6DC1F2AA226B8BFC00807F19 /* algorithm-exercise */;
+			name = HDOJ;
+			productName = HDOJ;
+			productReference = 6D1F35FD226F4E10008C76FB /* HDOJ */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6DC1F2A2226B8BFC00807F19 /* Project object */ = {
+		6D1F35F5226F4E0F008C76FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Hongyan Liu";
 				TargetAttributes = {
-					6DC1F2A9226B8BFC00807F19 = {
+					6D1F35FC226F4E10008C76FB = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 6DC1F2A5226B8BFC00807F19 /* Build configuration list for PBXProject "algorithm-exercise" */;
+			buildConfigurationList = 6D1F35F8226F4E0F008C76FB /* Build configuration list for PBXProject "HDOJ" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6DC1F2A1226B8BFC00807F19;
-			productRefGroup = 6DC1F2AB226B8BFC00807F19 /* Products */;
+			mainGroup = 6D1F35F4226F4E0F008C76FB;
+			productRefGroup = 6D1F35F4226F4E0F008C76FB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DC1F2A9226B8BFC00807F19 /* algorithm-exercise */,
+				6D1F35FC226F4E10008C76FB /* HDOJ */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6DC1F2A6226B8BFC00807F19 /* Sources */ = {
+		6D1F35F9226F4E10008C76FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DCE656C226EFF7F0061EA51 /* DFS.cpp in Sources */,
+				6D1F361B226F65B7008C76FB /* 1096.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6DC1F2AF226B8BFC00807F19 /* Debug */ = {
+		6D1F3602226F4E10008C76FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +177,7 @@
 			};
 			name = Debug;
 		};
-		6DC1F2B0226B8BFC00807F19 /* Release */ = {
+		6D1F3603226F4E10008C76FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +229,7 @@
 			};
 			name = Release;
 		};
-		6DC1F2B2226B8BFC00807F19 /* Debug */ = {
+		6D1F3605226F4E10008C76FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -247,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		6DC1F2B3226B8BFC00807F19 /* Release */ = {
+		6D1F3606226F4E10008C76FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -259,25 +250,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DC1F2A5226B8BFC00807F19 /* Build configuration list for PBXProject "algorithm-exercise" */ = {
+		6D1F35F8226F4E0F008C76FB /* Build configuration list for PBXProject "HDOJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DC1F2AF226B8BFC00807F19 /* Debug */,
-				6DC1F2B0226B8BFC00807F19 /* Release */,
+				6D1F3602226F4E10008C76FB /* Debug */,
+				6D1F3603226F4E10008C76FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DC1F2B1226B8BFC00807F19 /* Build configuration list for PBXNativeTarget "algorithm-exercise" */ = {
+		6D1F3604226F4E10008C76FB /* Build configuration list for PBXNativeTarget "HDOJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DC1F2B2226B8BFC00807F19 /* Debug */,
-				6DC1F2B3226B8BFC00807F19 /* Release */,
+				6D1F3605226F4E10008C76FB /* Debug */,
+				6D1F3606226F4E10008C76FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6DC1F2A2226B8BFC00807F19 /* Project object */;
+	rootObject = 6D1F35F5226F4E0F008C76FB /* Project object */;
 }
