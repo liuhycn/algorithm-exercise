@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
+#include <string>
 #include <algorithm>
 #include <vector>
 #include <stack>
@@ -16,6 +17,7 @@
 #include <queue>
 #include <math.h>
 #include <stdlib.h>
+#include <cstdio>
 
 using namespace std;
 
