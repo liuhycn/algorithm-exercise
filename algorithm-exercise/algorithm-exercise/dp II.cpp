@@ -64,7 +64,6 @@ int main()
 {
     int t;
     int cas = 0;
-    
     pp();
     scanf("%d",&t);
     while(t--!=0)
