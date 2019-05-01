@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D1F361B226F65B7008C76FB /* 1096.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D1F361A226F65B7008C76FB /* 1096.cpp */; };
+		6D4269AC227879790029F9FB /* 1114.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D4269AB227879790029F9FB /* 1114.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6D1F35FD226F4E10008C76FB /* HDOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = HDOJ; path = "/Users/hyliu/Documents/Study/Study-notes/algorithm-exercise/HDOJ/build/Debug/HDOJ"; sourceTree = "<absolute>"; };
 		6D1F3609226F4FA7008C76FB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		6D1F361A226F65B7008C76FB /* 1096.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1096.cpp; sourceTree = "<group>"; };
+		6D1F361E22709AA8008C76FB /* HDOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HDOJ; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4269AB227879790029F9FB /* 1114.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1114.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 		6D1F35F4226F4E0F008C76FB = {
 			isa = PBXGroup;
 			children = (
+				6D1F361E22709AA8008C76FB /* HDOJ */,
 				6D1F35FF226F4E10008C76FB /* HDOJ */,
 			);
 			sourceTree = "<group>";
@@ -50,7 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				6D1F3609226F4FA7008C76FB /* Header.h */,
-				6D1F361A226F65B7008C76FB /* 1096.cpp */,
+				6D4269AB227879790029F9FB /* 1114.cpp */,
 			);
 			path = HDOJ;
 			sourceTree = "<group>";
@@ -72,7 +73,7 @@
 			);
 			name = HDOJ;
 			productName = HDOJ;
-			productReference = 6D1F35FD226F4E10008C76FB /* HDOJ */;
+			productReference = 6D1F361E22709AA8008C76FB /* HDOJ */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D1F361B226F65B7008C76FB /* 1096.cpp in Sources */,
+				6D4269AC227879790029F9FB /* 1114.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
