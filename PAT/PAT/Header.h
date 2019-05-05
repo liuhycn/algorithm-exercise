@@ -18,6 +18,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <cstdio>
+#include <time.h>
 
 using namespace std;
 
