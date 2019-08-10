@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6D30234F22F959FC004C4750 /* 828.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D30234E22F959FC004C4750 /* 828.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		6D1337F222EC1F0E009F9ECC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,8 +20,7 @@
 
 /* Begin PBXFileReference section */
 		6D1337F422EC1F0E009F9ECC /* Acwing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Acwing; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D13380022EC1F7E009F9ECC /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = "基础算法/Header.h"; sourceTree = "<group>"; };
-		6D30234E22F959FC004C4750 /* 828.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 828.cpp; path = "基础算法/828.cpp"; sourceTree = "<group>"; };
+		6D30235622FA6EC0004C4750 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = "数据结构/Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +53,7 @@
 		6D1337F622EC1F0E009F9ECC /* Acwing */ = {
 			isa = PBXGroup;
 			children = (
-				6D13380022EC1F7E009F9ECC /* Header.h */,
-				6D30234E22F959FC004C4750 /* 828.cpp */,
+				6D30235622FA6EC0004C4750 /* Header.h */,
 			);
 			path = Acwing;
 			sourceTree = "<group>";
@@ -120,7 +114,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D30234F22F959FC004C4750 /* 828.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
