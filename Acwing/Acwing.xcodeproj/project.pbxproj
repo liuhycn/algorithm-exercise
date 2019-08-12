@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6D0E3A682301B4EA00F81605 /* 859.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D0E3A672301B4EA00F81605 /* 859.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		6D1337F222EC1F0E009F9ECC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6D0E3A672301B4EA00F81605 /* 859.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 859.cpp; path = "树、图、搜索/859.cpp"; sourceTree = "<group>"; };
 		6D1337F422EC1F0E009F9ECC /* Acwing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Acwing; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D30235622FA6EC0004C4750 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = "数据结构/Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				6D30235622FA6EC0004C4750 /* Header.h */,
+				6D0E3A672301B4EA00F81605 /* 859.cpp */,
 			);
 			path = Acwing;
 			sourceTree = "<group>";
@@ -114,6 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0E3A682301B4EA00F81605 /* 859.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
