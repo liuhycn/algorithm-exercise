@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6D0E3A682301B4EA00F81605 /* 859.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D0E3A672301B4EA00F81605 /* 859.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		6D1337F222EC1F0E009F9ECC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6D0E3A672301B4EA00F81605 /* 859.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 859.cpp; path = "树、图、搜索/859.cpp"; sourceTree = "<group>"; };
-		6D1337F422EC1F0E009F9ECC /* Acwing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Acwing; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0E3A702302E2E200F81605 /* Acwing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Acwing; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D30235622FA6EC0004C4750 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = "数据结构/Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,23 +38,14 @@
 			isa = PBXGroup;
 			children = (
 				6D1337F622EC1F0E009F9ECC /* Acwing */,
-				6D1337F522EC1F0E009F9ECC /* Products */,
+				6D0E3A702302E2E200F81605 /* Acwing */,
 			);
-			sourceTree = "<group>";
-		};
-		6D1337F522EC1F0E009F9ECC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6D1337F422EC1F0E009F9ECC /* Acwing */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		6D1337F622EC1F0E009F9ECC /* Acwing */ = {
 			isa = PBXGroup;
 			children = (
 				6D30235622FA6EC0004C4750 /* Header.h */,
-				6D0E3A672301B4EA00F81605 /* 859.cpp */,
 			);
 			path = Acwing;
 			sourceTree = "<group>";
@@ -81,7 +67,7 @@
 			);
 			name = Acwing;
 			productName = Acwing;
-			productReference = 6D1337F422EC1F0E009F9ECC /* Acwing */;
+			productReference = 6D0E3A702302E2E200F81605 /* Acwing */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +92,7 @@
 				en,
 			);
 			mainGroup = 6D1337EB22EC1F0E009F9ECC;
-			productRefGroup = 6D1337F522EC1F0E009F9ECC /* Products */;
+			productRefGroup = 6D1337EB22EC1F0E009F9ECC;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -120,7 +106,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D0E3A682301B4EA00F81605 /* 859.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
