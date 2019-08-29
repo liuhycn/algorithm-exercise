@@ -5,7 +5,7 @@
 using namespace std;
 
 const int N = 501;
-const int M = 200001;
+const int M = 2000001;
 
 typedef pair<int, int> PII;
 vector<PII> wbuf;
@@ -88,7 +88,7 @@ int main()
     memset(visit, 0, sizeof visit);
     dfs(0, dist[dst]);
     
-    int ansback, ansout = 0x3f3f3f3f;
+    int ansback = 0x3f3f3f3f, ansout = 0x3f3f3f3f;
     vector<int> anspath;
     for (auto path : ans)
     {
@@ -102,18 +102,16 @@ int main()
             }
             else if (c[path[i]] < stand)
             {
-                out += stand - c[path[i]];
+                if (stand - c[path[i]] > back)
+                {
+                    out += stand - c[path[i]] - back;
+                    back = 0;
+                }
+                else
+                {
+                    back -= stand - c[path[i]];
+                }
             }
-        }
-        if (out >= back)
-        {
-            out -= back;
-            back = 0;
-        }
-        else
-        {
-            back -= out;
-            out = 0;
         }
         if (out < ansout || (out == ansout && back < ansback))
         {

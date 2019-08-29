@@ -1,11 +1,3 @@
-//
-//  1010.cpp
-//  PAT
-//
-//  Created by Hongyan Liu on 2019/8/18.
-//  Copyright © 2019 Hongyan Liu. All rights reserved.
-//
-
 #include <iostream>
 #include <string>
 
@@ -17,14 +9,15 @@ int chartoInt(char c)
 {
     if (c >= '0' && c <= '9')
         return c - '0';
-    else
+    else if (c >= 'a' && c <= 'z')
         return c - 'a' + 10;
+    return 0;
 }
 
-LL toDec(string nums, int ra)
+LL toDec(string nums, LL ra)
 {
     int len = nums.size();
-    int r = 1;
+    LL r = 1;
     LL res = 0;
     for (int i = len - 1; i >= 0; i--)
     {
@@ -34,27 +27,33 @@ LL toDec(string nums, int ra)
     return res;
 }
 
-bool find(string nums, LL tar, int &res)
+bool find(string nums, LL tar, LL &res)
 {
-    for (int i = 2; i <= 36; i++)
+    LL l = 2;
+    LL r = tar;
+    while (l < r)
     {
-        if (toDec(nums, i) == tar)
-        {
-            res = i;
-            return true;
-        }
+        LL mid = l + r >> 1;
+        if (toDec(nums, mid) >= tar || toDec(nums, mid) < 0)
+            r = mid;
+        else l = mid + 1;
+    }
+    if (toDec(nums, l) == tar)
+    {
+        res = l;
+        return true;
     }
     return false;
 }
 
 int main()
 {
-    cout << "1" << endl;
+    cout << endl;
     string nums1, nums2;
-    int tag, ra;
+    LL tag, ra;
     cin >> nums1 >> nums2 >> tag >> ra;
     LL tar;
-    int res;
+    LL res;
     string tmp;
     if (tag == 1)
     {
@@ -66,8 +65,7 @@ int main()
         tar = toDec(nums2, ra);
         tmp = nums1;
     }
-    cout << tar << ' ' << tmp << endl;
-    if (find(tmp, tar, res)) printf("%d", res);
-    else printf("impossible");
+    if (find(tmp, tar, res)) printf("%lld", res);
+    else printf("Impossible");
     return 0;
 }

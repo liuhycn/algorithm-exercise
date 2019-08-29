@@ -2,11 +2,22 @@
 //  1052.cpp
 //  PAT
 //
-//  Created by Hongyan Liu on 2019/8/4.
+//  Created by Hongyan Liu on 2019/8/27.
 //  Copyright © 2019 Hongyan Liu. All rights reserved.
 //
 
-#include "Header.h"
+#include <stdio.h>
+#include <iostream>
+#include <string.h>
+#include <algorithm>
+#include <vector>
+#include <stack>
+#include <map>
+#include <queue>
+#include <math.h>
+#include <set>
+
+using namespace std;
 
 struct ListNode
 {
@@ -25,7 +36,6 @@ map<int, int> mymap;
 
 int main()
 {
-    pp();
     int head, n;
     scanf("%d%d", &n, &head);
     for (int i = 0; i < n; i++)
@@ -35,13 +45,23 @@ int main()
         buf.push_back(tmp);
         mymap[tmp.addr] = i;
     }
+    int flag = 0;
     while (head != -1)
     {
-        list.push_back(buf[mymap[head]]);
-        head = list[list.size() - 1].next;
-        if (list.size() == n) break;
+        if (mymap.find(head) != mymap.end())
+        {
+            ListNode tmp = buf[mymap[head]];
+            list.push_back(tmp);
+            head = tmp.next;
+        }
+        else
+        {
+            flag = 1;
+            break;
+        }
+        
     }
-    if (list.size() == n && head != -1)
+    if (flag == 1 || list.size() == 0)
     {
         printf("0 -1");
         return 0;
